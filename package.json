@@ -1,0 +1,35 @@
+{
+  "name": "yuzu",
+  "author": "James Kao <james.l.kao@gmail.com>",
+  "version": "0.1.0",
+  "private": true,
+  "main": "yuzu.sketchplugin",
+  "manifest": "manifest.json",
+  "dependencies": {
+    "for-in": "^1.0.2",
+    "react": "16.0.0-alpha.6",
+    "react-dom": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-primitives": "^0.3.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-sketchapp": "^0.10.3",
+    "react-test-renderer": "^15.5.4"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.45.0",
+    "react-scripts": "0.9.5",
+    "skpm": "^0.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "sketch_build": "skpm build",
+    "sketch_watch": "skpm build --watch",
+    "sketch_render": "skpm build --watch --run",
+    "sketch_render:once": "skpm build --run",
+    "flow": "flow"
+  }
+}
