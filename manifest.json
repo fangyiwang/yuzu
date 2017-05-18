@@ -5,7 +5,7 @@
     {
       "name": "yuzu",
       "identifier": "main",
-      "script": "./index.sketch.js"
+      "script": "./src/index.sketch.js"
     }
   ],
   "menu": {
